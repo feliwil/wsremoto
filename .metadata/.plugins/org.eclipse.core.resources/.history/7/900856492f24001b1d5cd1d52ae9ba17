@@ -1,0 +1,14 @@
+package br.com.formula1.implementacao;
+
+import br.com.formula1.modelo.Carro;
+
+public class TesteCarro {
+
+	public static void main(String[] args) {
+		Carro objeto = new Carro();
+		objeto.preencherEscuderia("FERRARI");
+		System.out.println(objeto.retornarEscuderia());
+
+	}
+
+}

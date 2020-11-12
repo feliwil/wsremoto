@@ -1,0 +1,14 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class Exercicio2 {
+
+	public static void main(String[] args) {
+		int num1 = Integer.parseInt(JOptionPane.showInputDialog("Numero 1:"));
+		int num2 = 
+		
+
+	}
+
+}

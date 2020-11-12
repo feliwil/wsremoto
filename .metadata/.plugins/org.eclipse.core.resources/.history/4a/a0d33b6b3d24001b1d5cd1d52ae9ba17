@@ -1,0 +1,40 @@
+package br.com.formula1.modelo;
+
+public class Carro {
+	private String escuderia; 
+	private short numero;
+	private String cor;
+	private float valor;
+	private boolean status;
+	
+	
+
+	
+	/*public String ligar (String param) {
+		status = True;
+	 * }
+	 * public String desligar (String param) {
+	 * 
+	 * }
+	 */
+		
+	
+	
+	public void preencherNumero(short param) {
+		if (param>0) {
+			numero =param;
+		}
+		
+	}
+	
+	public short retornarNumero () {
+		return numero;
+	}
+	public String retornarEscuderia() {
+		return escuderia;
+	}
+	
+	public void preencherEscuderia(String param) {
+		escuderia=param.toUpperCase();
+	}
+}

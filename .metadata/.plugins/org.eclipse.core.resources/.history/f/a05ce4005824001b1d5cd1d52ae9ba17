@@ -1,0 +1,50 @@
+package br.com.elevador.modelo;
+
+public class Elevador {
+	private int andarAtual;
+	private int andarMaximo;
+	private int andarMinimo;
+	private int capacidadePessoas;
+	private int qtdePessoas;
+	private String nome;
+	
+	public void entrar (int pQtde) {
+		if (qtdePessoas + pQtde < capacidadePessoas) {
+			qtdePessoas = qtdePessoas + pQtde;
+		}
+		
+	}
+	
+	public void sair (int pQde) {
+		if (qtdePessoas-pQde >0) {
+			qtdePessoas = qtdePessoas - pQde;
+		}
+	}
+	
+	public void subir () {
+		if (andarAtual + 1 < andarMaximo) {
+			andarAtual= andarAtual +1;
+		}
+	}
+	
+	public void desce () {
+		if (andarAtual - 1 >0) {
+			andarAtual= andarAtual - 1;
+	
+		}
+	}
+	
+	public String retornarTudo () {
+		return 
+				"Andar Atual: " + andarAtual + "\n" + 
+				"Andar Maximo: " + andarMaximo + "\n" + 
+				"Andar Atual: " + andarAtual + "\n" + 
+	}
+	
+	
+	
+	
+	
+	
+	
+}

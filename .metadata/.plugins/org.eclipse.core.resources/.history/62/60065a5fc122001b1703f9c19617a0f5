@@ -1,0 +1,10 @@
+package variaveis;
+
+public class ManipulaString {
+
+	public static void main(String[] args) {
+		String email = "xpTo@itau-uNibanco.cOm.bR";
+
+	}
+
+}

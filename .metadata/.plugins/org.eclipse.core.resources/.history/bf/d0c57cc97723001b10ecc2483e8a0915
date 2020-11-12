@@ -1,0 +1,23 @@
+package decisao;
+
+import javax.swing.JOptionPane;
+
+public class Exercicio2 {
+
+	public static void main(String[] args) {
+		int result1 = 0;
+		int result2= 0;
+		int result3= 0;
+		int num1 = Integer.parseInt(JOptionPane.showInputDialog("Numero 1:"));
+		int num2 = Integer.parseInt(JOptionPane.showInputDialog("Numero 2:"));
+
+		if (num1!=num2) {
+			int num3 = Integer.parseInt(JOptionPane.showInputDialog("Numero 3:"));
+
+		}
+
+
+
+	}//fecha metodo
+
+}//fecha classe

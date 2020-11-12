@@ -1,0 +1,19 @@
+package repeticao;
+
+import javax.swing.JOptionPane;
+
+public class ExemplosWhile {
+
+	public static void main(String[] args) {
+		String email = JOptionPane.showInputDialog("Digite um email").toLowerCase();
+		
+		while (email.contains("@")==false) {
+			email=JOptionPane.showInputDialog("Digite o email com @:").toLowerCase();
+		}
+		while (email.indexOf("@")<6 || email.indexOf("@")>11 )  {
+			email=JOptionPane.showInputDialog("O nome deve conter em 5 e 10 caracteres:").toLowerCase();
+		}
+
+	}
+
+}
