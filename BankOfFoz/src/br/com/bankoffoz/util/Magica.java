@@ -1,9 +1,15 @@
-package br.com.ecommerce.util;
+package br.com.bankoffoz.util;
 
 import javax.swing.JOptionPane;
 
 public class Magica {
 	
+	public static byte by (String msg) {
+		return Byte.parseByte(s (msg));
+	}
+	public static short sh (String msg)  {
+		return Short.parseShort(s (msg));
+	}
 	public static String s (String msg) {
 		return JOptionPane.showInputDialog(msg).toUpperCase();
 	}
