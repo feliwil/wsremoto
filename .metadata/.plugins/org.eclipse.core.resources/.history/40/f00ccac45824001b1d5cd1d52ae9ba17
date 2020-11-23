@@ -1,9 +1,0 @@
-package br.com.elevador.implementacao;
-
-import br.com.elevador.modelo.Elevador;
-
-public class TesteElevador {
-	Elevador objeto = new Elevador ();
-	
-	
-}
